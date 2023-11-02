@@ -2,7 +2,7 @@
 
 ## Tiny store
 
-Python code used to search through a store database on SQLite3 and diplay the results.
+Python code used to search through a store database on SQLite3 and diplay the results.1
 
 ## Parctice demo
 
