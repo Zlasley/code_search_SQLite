@@ -1,6 +1,6 @@
 # code_search_SQLite
 
-## Tiny store1111
+## Tiny store
 
 Python code used to search through a store database on SQLite3 and diplay the results.
 
