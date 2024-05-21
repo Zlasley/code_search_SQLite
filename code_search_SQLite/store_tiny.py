@@ -1,4 +1,4 @@
-""" Module providing function for creatin a SQL DB""".
+""" Module providing function for creatin a SQL DB"""..
 import sqlite3
 
 # Creates a connection to sqlite3 database
