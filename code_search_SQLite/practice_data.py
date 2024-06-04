@@ -14,7 +14,7 @@ c.execute('''
      [X] INTEGER,
      [Y] INTEGER) ''')
 
-# c.execute("INSERT INTO demo VALUES ('g', 3, 9)")
+ c.execute("INSERT INTO demo VALUES ('g', 3, 9)")
 # c.execute("INSERT INTO demo VALUES ('v', 5, 7)")
 # c.execute("INSERT INTO demo VALUES ('f', 8, 7)")
 
