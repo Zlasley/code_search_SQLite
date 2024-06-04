@@ -1,7 +1,7 @@
 """ Module providing function for creatin a SQL DB"""
 import sqlite3
 
-# Creates a connection to sqlite3 database
+''' Creates a connection to sqlite3 database'''
 connection = sqlite3.connect("practice_data.sqlite3")
 cursor = connection.cursor()
 
