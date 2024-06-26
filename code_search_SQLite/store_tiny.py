@@ -43,7 +43,7 @@ expensive = cursor.execute(expensive_items).fetchall()
 # (62, 'Tarte au sucre', 29, 3, '48 pies', 49.3, 17, 0, 0, 0)]
 
 avg_age = cursor.execute(avg_hire_age).fetchall()
-
+# [(37.22222222222222,)]
 
 most_expensive = cursor.execute(ten_most_expensive).fetchall()
 # [('Th▒ringer Rostbratwurst', 123.79, "For▒ts d'▒rables")
