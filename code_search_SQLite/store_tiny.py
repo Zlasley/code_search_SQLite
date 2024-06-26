@@ -46,7 +46,16 @@ avg_age = cursor.execute(avg_hire_age).fetchall()
 # [(37.22222222222222,)]
 
 most_expensive = cursor.execute(ten_most_expensive).fetchall()
-
+# [('Th▒ringer Rostbratwurst', 123.79, "For▒ts d'▒rables")
+# ('Mishi Kobe Niku', 97, 'PB Kn▒ckebr▒d AB')
+# ("Sir Rodney's Marmalade", 81, 'Leka Trading')
+# ('Carnarvon Tigers', 62.5, 'Aux joyeux eccl▒siastiques')
+# ('R▒ssle Sauerkraut', 45.6, 'Gai p▒turage')
+# ('Schoggi Schokolade', 43.9, 'Escargots Nouveaux')
+# ('Northwoods Cranberry Sauce', 40, 'Specialty Biscuits, Ltd.')
+# ('Alice Mutton', 39, 'Svensk Sj▒f▒da AB')
+# ('Queso Manchego La Pastora', 38, 'Plutzer Lebensmittelgro▒m▒rkte AG')
+# ('Gumb▒r Gummib▒rchen', 31.23, 'Pasta Buttini s.r.l.')]
 
 lrg_category = cursor.execute(largest_category).fetchall()
 # [('Confections',)]
