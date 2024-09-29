@@ -1,5 +1,5 @@
 """ Module providing function for creatin a SQL DB"""
-import sqlite3zz
+import sqlite3zzz
 
 ''' Creates a connection to sqlite3 database'''
 connection = sqlite3.connect("practice_data.sqlite3")
