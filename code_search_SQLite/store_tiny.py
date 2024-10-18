@@ -1,5 +1,5 @@
 """ Module providing function for creatin a SQL DB"""
-import sqlite3
+import sqlite33
 
 # Creates a connection to sqlite3 database
 connect = sqlite3.connect('tiny_store.sqlite3')
